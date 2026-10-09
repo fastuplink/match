@@ -1,0 +1,325 @@
+{
+  "lastUpdated": "2026-10-09T18:45:00Z",
+  "matches": [
+    {
+      "fixture": {
+        "id": 1001,
+        "date": "2026-10-09T16:00:00+00:00",
+        "timestamp": 1791561600,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 233,
+        "name": "الدوري المصري الممتاز",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/233.png",
+        "round": "الجولة 14",
+        "category": "egyptian"
+      },
+      "teams": {
+        "home": {
+          "id": 1030,
+          "name": "الأهلي",
+          "logo": "https://media.api-sports.io/football/teams/1030.png"
+        },
+        "away": {
+          "id": 1032,
+          "name": "الزمالك",
+          "logo": "https://media.api-sports.io/football/teams/1032.png"
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 1
+      },
+      "broadcast": {
+        "channel": "OnTime Sports 1 HD",
+        "commentator": "مدحت شلبي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1002,
+        "date": "2026-10-09T17:30:00+00:00",
+        "timestamp": 1791567000,
+        "status": {
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 68
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "الدوري الإنجليزي الممتاز",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "round": "الجولة 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 50,
+          "name": "مانشستر سيتي",
+          "logo": "https://media.api-sports.io/football/teams/50.png"
+        },
+        "away": {
+          "id": 40,
+          "name": "ليفربول",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 1
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 1",
+        "commentator": "عصام الشوالي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1003,
+        "date": "2026-10-09T19:00:00+00:00",
+        "timestamp": 1791572400,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "الدوري الإسباني",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "round": "الجولة 9",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 541,
+          "name": "ريال مدريد",
+          "logo": "https://media.api-sports.io/football/teams/541.png"
+        },
+        "away": {
+          "id": 529,
+          "name": "برشلونة",
+          "logo": "https://media.api-sports.io/football/teams/529.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 3",
+        "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1004,
+        "date": "2026-10-09T19:45:00+00:00",
+        "timestamp": 1791575100,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "الدوري الإيطالي",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "round": "الجولة 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 489,
+          "name": "ميلان",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        },
+        "away": {
+          "id": 505,
+          "name": "إنتر ميلان",
+          "logo": "https://media.api-sports.io/football/teams/505.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "StarzPlay / AD Sports 1",
+        "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1005,
+        "date": "2026-10-09T17:00:00+00:00",
+        "timestamp": 1791565200,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 12,
+        "name": "دوري أبطال أفريقيا",
+        "country": "Africa",
+        "logo": "https://media.api-sports.io/football/leagues/12.png",
+        "round": "دور المجموعات",
+        "category": "african_club"
+      },
+      "teams": {
+        "home": {
+          "id": 968,
+          "name": "الترجي التونسي",
+          "logo": "https://media.api-sports.io/football/teams/968.png"
+        },
+        "away": {
+          "id": 967,
+          "name": "الوداد الرياضي",
+          "logo": "https://media.api-sports.io/football/teams/967.png"
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 0
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 6",
+        "commentator": "جواد بدة"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1006,
+        "date": "2026-10-10T18:00:00+00:00",
+        "timestamp": 1791655200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 6,
+        "name": "تصفيات كأس الأمم الأفريقية",
+        "country": "Africa",
+        "logo": "https://media.api-sports.io/football/leagues/6.png",
+        "round": "تصفيات المجموعات",
+        "category": "national"
+      },
+      "teams": {
+        "home": {
+          "id": 32,
+          "name": "مصر",
+          "logo": "https://media.api-sports.io/football/teams/32.png"
+        },
+        "away": {
+          "id": 1501,
+          "name": "السنغال",
+          "logo": "https://media.api-sports.io/football/teams/1501.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 2",
+        "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1007,
+        "date": "2026-10-10T19:45:00+00:00",
+        "timestamp": 1791661500,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 5,
+        "name": "دوري الأمم الأوروبية",
+        "country": "World",
+        "logo": "https://media.api-sports.io/football/leagues/5.png",
+        "round": "المستوى الأول",
+        "category": "national"
+      },
+      "teams": {
+        "home": {
+          "id": 2,
+          "name": "فرنسا",
+          "logo": "https://media.api-sports.io/football/teams/2.png"
+        },
+        "away": {
+          "id": 25,
+          "name": "ألمانيا",
+          "logo": "https://media.api-sports.io/football/teams/25.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 1",
+        "commentator": "حفيظ دراجي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1008,
+        "date": "2026-10-08T17:00:00+00:00",
+        "timestamp": 1791478800,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 233,
+        "name": "الدوري المصري الممتاز",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/233.png",
+        "round": "الجولة 14",
+        "category": "egyptian"
+      },
+      "teams": {
+        "home": {
+          "id": 1033,
+          "name": "بيراميدز",
+          "logo": "https://media.api-sports.io/football/teams/1033.png"
+        },
+        "away": {
+          "id": 1034,
+          "name": "الإسماعيلي",
+          "logo": "https://media.api-sports.io/football/teams/1034.png"
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "broadcast": {
+        "channel": "OnTime Sports 2 HD",
+        "commentator": "أيمن الكاشف"
+      }
+    }
+  ]
+}

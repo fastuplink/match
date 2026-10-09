@@ -1,0 +1,21 @@
+{
+  "leagues": {
+    "39": { "channel": "beIN Sports HD 1", "commentator": "عصام الشوالي" },
+    "140": { "channel": "beIN Sports HD 3", "commentator": "علي محمد علي" },
+    "78": { "channel": "beIN Sports HD 5", "commentator": "حسن العيدروس" },
+    "135": { "channel": "StarzPlay / AD Sports", "commentator": "فارس عوض" },
+    "61": { "channel": "beIN Sports HD 4", "commentator": "جواد بدة" },
+    "2": { "channel": "beIN Sports HD 1", "commentator": "حفيظ دراجي" },
+    "3": { "channel": "beIN Sports HD 2", "commentator": "أحمد البلوشي" },
+    "12": { "channel": "beIN Sports HD 6", "commentator": "خليل البلوشي" },
+    "20": { "channel": "beIN Sports HD 6", "commentator": "محمد بركات" },
+    "233": { "channel": "OnTime Sports 1", "commentator": "مدحت شلبي" },
+    "1": { "channel": "beIN Sports Max", "commentator": "عصام الشوالي" },
+    "4": { "channel": "beIN Sports Max 1", "commentator": "حفيظ دراجي" },
+    "6": { "channel": "beIN Sports HD Max", "commentator": "خليل البلوشي" }
+  },
+  "default": {
+    "channel": "قناة غير معلنة",
+    "commentator": "غير محدد"
+  }
+}
