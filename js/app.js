@@ -1,4 +1,299 @@
 document.addEventListener('DOMContentLoaded', () => {
+    // Comprehensive Arabic translation dictionary for teams and leagues
+    const ARABIC_NAMES = {
+        // --- Leagues & Tournaments ---
+        "Premier League": "الدوري الإنجليزي الممتاز",
+        "La Liga": "الدوري الإسباني",
+        "Serie A": "الدوري الإيطالي",
+        "Bundesliga": "الدوري الألماني",
+        "Ligue 1": "الدوري الفرنسي",
+        "UEFA Champions League": "دوري أبطال أوروبا",
+        "UEFA Europa League": "الدوري الأوروبي",
+        "UEFA Europa Conference League": "دوري المؤتمر الأوروبي",
+        "UEFA Conference League": "دوري المؤتمر الأوروبي",
+        "CAF Champions League": "دوري أبطال أفريقيا",
+        "CAF Confederation Cup": "كأس الكونفدرالية الأفريقية",
+        "CAF Super Cup": "كأس السوبر الأفريقي",
+        "UEFA Super Cup": "كأس السوبر الأوروبي",
+        "Egyptian Premier League": "الدوري المصري الممتاز",
+        "Egypt Cup": "كأس مصر",
+        "Saudi Pro League": "دوري روشن السعودي",
+        "Saudi League": "دوري روشن السعودي",
+        "World Cup": "كأس العالم",
+        "UEFA Nations League": "دوري الأمم الأوروبية",
+        "Euro Championship": "كأس أمم أوروبا",
+        "UEFA European Championship": "كأس أمم أوروبا",
+        "Africa Cup of Nations": "كأس أمم أفريقيا",
+        "Asian Cup": "كأس آسيا",
+        "Copa America": "كوبا أمريكا",
+        "Friendlies": "مباراة ودية",
+        "Club Friendlies": "مباراة ودية للأندية",
+
+        // --- English Premier League ---
+        "Manchester City": "مانشستر سيتي",
+        "Liverpool": "ليفربول",
+        "Arsenal": "أرسنال",
+        "Chelsea": "تشيلسي",
+        "Manchester United": "مانشستر يونايتد",
+        "Tottenham": "توتنهام",
+        "Tottenham Hotspur": "توتنهام",
+        "Newcastle": "نيوكاسل",
+        "Newcastle United": "نيوكاسل",
+        "Aston Villa": "أستون فيلا",
+        "Brighton": "برايتون",
+        "Brighton & Hove Albion": "برايتون",
+        "West Ham": "وست هام",
+        "West Ham United": "وست هام",
+        "Everton": "إيفرتون",
+        "Wolves": "وولفرهامبتون",
+        "Wolverhampton Wanderers": "وولفرهامبتون",
+        "Fulham": "فولهام",
+        "Brentford": "برينتفورد",
+        "Crystal Palace": "كريستال بالاس",
+        "Bournemouth": "بورنموث",
+        "Nottingham Forest": "نوتينغهام فورست",
+        "Leicester": "ليستر سيتي",
+        "Leicester City": "ليستر سيتي",
+        "Southampton": "ساوثهامبتون",
+        "Ipswich": "إبسويتش تاون",
+        "Ipswich Town": "إبسويتش تاون",
+        "Leeds United": "ليدز يونايتد",
+
+        // --- Spanish La Liga ---
+        "Real Madrid": "ريال مدريد",
+        "Barcelona": "برشلونة",
+        "Atletico Madrid": "أتلتيكو مدريد",
+        "Sevilla": "إشبيلية",
+        "Real Sociedad": "ريال سوسيداد",
+        "Athletic Club": "أتلتيك بلباو",
+        "Athletic Bilbao": "أتلتيك بلباو",
+        "Real Betis": "ريال بيتيس",
+        "Villarreal": "فياريال",
+        "Valencia": "فالنسيا",
+        "Girona": "جيرونا",
+        "Celta Vigo": "سيلتا فيغو",
+        "Mallorca": "مايوركا",
+        "Osasuna": "أوساسونا",
+        "Getafe": "خيتافي",
+        "Rayo Vallecano": "رايو فاييكانو",
+        "Las Palmas": "لاس بالماس",
+        "Alaves": "ألافيس",
+        "Deportivo Alaves": "ألافيس",
+        "Espanyol": "إسبانيول",
+        "Leganes": "ليغانيس",
+        "Real Valladolid": "بلد الوليد",
+
+        // --- Italian Serie A ---
+        "Inter": "إنتر ميلان",
+        "Inter Milan": "إنتر ميلان",
+        "AC Milan": "ميلان",
+        "Milan": "ميلان",
+        "Juventus": "يوفنتوس",
+        "Napoli": "نابولي",
+        "AS Roma": "روما",
+        "Roma": "روما",
+        "Lazio": "لاتسيو",
+        "Atalanta": "أتالانتا",
+        "Fiorentina": "فيورنتينا",
+        "Bologna": "بولونيا",
+        "Torino": "تورينو",
+        "Monza": "مونزا",
+        "Genoa": "جنوى",
+        "Parma": "بارما",
+        "Udinese": "أودينيزي",
+        "Cagliari": "كالياري",
+        "Empoli": "إمبولي",
+        "Verona": "هيلاس فيرونا",
+        "Hellas Verona": "هيلاس فيرونا",
+        "Como": "كومو",
+        "Venezia": "فينيسيا",
+        "Lecce": "ليتشي",
+
+        // --- German Bundesliga ---
+        "Bayern Munich": "بايرن ميونخ",
+        "Bayern München": "بايرن ميونخ",
+        "Borussia Dortmund": "بوروسيا دورتموند",
+        "Bayer Leverkusen": "باير ليفركوزن",
+        "RB Leipzig": "لايبزيغ",
+        "Eintracht Frankfurt": "آينتراخت فرانكفورت",
+        "VfB Stuttgart": "شتوتغارت",
+        "Borussia Monchengladbach": "بوروسيا مونشنغلادباخ",
+        "Wolfsburg": "فولفسبورغ",
+        "VfL Wolfsburg": "فولفسبورغ",
+        "SC Freiburg": "فرايبورغ",
+        "Freiburg": "فرايبورغ",
+        "Union Berlin": "يونيون برلين",
+        "Werder Bremen": "فيردر بريمن",
+        "Hoffenheim": "هوفنهايم",
+        "Augsburg": "أوغسبورغ",
+        "Mainz 05": "ماينتس",
+        "St. Pauli": "سانت باولي",
+        "FC Heidenheim": "هايدنهايم",
+        "Bochum": "بوخوم",
+        "Holstein Kiel": "هولشتاين كیل",
+
+        // --- French Ligue 1 ---
+        "Paris Saint Germain": "باريس سان جيرمان",
+        "Paris Saint-Germain": "باريس سان جيرمان",
+        "PSG": "باريس سان جيرمان",
+        "Marseille": "مارسيليا",
+        "Monaco": "موناكو",
+        "Lyon": "أولمبيك ليون",
+        "Lille": "ليل",
+        "Rennes": "رين",
+        "Nice": "نيس",
+        "Lens": "لانس",
+        "Stade Reims": "ستاد ريمس",
+        "Reims": "ستاد ريمس",
+        "Strasbourg": "ستراسبورغ",
+        "Toulouse": "تولوز",
+        "Nantes": "نانت",
+        "Brest": "ستاد بريست",
+        "Saint-Etienne": "سانت إيتيان",
+        "Auxerre": "أوكسير",
+        "Angers": "أنجيه",
+        "Le Havre": "لو هافر",
+        "Montpellier": "مونبلييه",
+
+        // --- Egyptian Premier League ---
+        "Al Ahly": "الأهلي",
+        "Al Ahly SC": "الأهلي",
+        "Zamalek": "الزمالك",
+        "Zamalek SC": "الزمالك",
+        "Pyramids": "بيراميدز",
+        "Pyramids FC": "بيراميدز",
+        "Ismaily": "الإسماعيلي",
+        "Ismaily SC": "الإسماعيلي",
+        "Al Masry": "المصري البورسعيدي",
+        "Al Masry Club": "المصري البورسعيدي",
+        "Al Ittihad": "الاتحاد السكندري",
+        "Al Ittihad Alexandria": "الاتحاد السكندري",
+        "Modern Sport": "مودرن سبورت",
+        "Future": "مودرن سبورت",
+        "Future FC": "مودرن سبورت",
+        "Smouha": "سموحة",
+        "Smouha SC": "سموحة",
+        "ZED FC": "زد",
+        "Ceramica Cleopatra": "سيراميكا كليوباترا",
+        "ENPPI": "إنبي",
+        "Tala'ea El Gaish": "طلائع الجيش",
+        "National Bank of Egypt": "البنك الأهلي",
+        "National Bank": "البنك الأهلي",
+        "Pharco": "فاركو",
+        "Ghazl El Mahalla": "غزل المحلة",
+        "El Gouna": "الجونة",
+        "Haras El Hodood": "حرس الحدود",
+        "Petrojet": "بتروجت",
+
+        // --- Saudi Pro League ---
+        "Al-Hilal": "الهلال",
+        "Al Hilal": "الهلال",
+        "Al-Nassr": "النصر",
+        "Al Nassr": "النصر",
+        "Al-Ittihad": "الاتحاد",
+        "Al Ittihad": "الاتحاد",
+        "Al-Ahli": "الأهلي السعودي",
+        "Al Ahli": "الأهلي السعودي",
+        "Al-Shabab": "الشباب",
+        "Al Shabab": "الشباب",
+        "Al-Ettifaq": "الاتفاق",
+        "Al Ettifaq": "الاتفاق",
+        "Al-Taawoun": "التعاون",
+        "Al Taawoun": "التعاون",
+        "Al-Fateh": "الفتح",
+        "Al Fateh": "الفتح",
+        "Al-Qadsiah": "القادسية",
+        "Al-Raed": "الرائد",
+        "Al-Wehda": "الوحدة",
+        "Damac": "ضمك",
+        "Al-Fayha": "الفيحاء",
+        "Al-Khaleej": "الخليج",
+        "Al-Okhdood": "الأخدود",
+        "Al-Riyadh": "الرياض",
+        "Al-Kholood": "الخلود",
+        "Al-Orobah": "العروبة",
+
+        // --- African & Arab Clubs ---
+        "Esperance Tunis": "الترجي التونسي",
+        "ES Tunis": "الترجي التونسي",
+        "Wydad AC": "الوداد الرياضي",
+        "Wydad Casablanca": "الوداد الرياضي",
+        "Raja Club Athletic": "الرجاء الرياضي",
+        "Raja Casablanca": "الرجاء الرياضي",
+        "Mamelodi Sundowns": "صنداونز",
+        "TP Mazembe": "مازيمبي",
+        "JS Kabylie": "شبيبة القبائل",
+        "CR Belouizdad": "شباب بلوزداد",
+        "MC Alger": "مولودية الجزائر",
+        "ES Setif": "وفاق سطيف",
+        "Etoile du Sahel": "النجم الساحلي",
+        "Club Africain": "النادي الإفريقي",
+        "Al-Hilal Omdurman": "الهلال السوداني",
+        "Al-Merrikh": "المريخ السوداني",
+        "FAR Rabat": "الجيش الملكي",
+        "RS Berkane": "نهضة بركان",
+        "Al Ain": "العين",
+        "Al Sadd": "السد",
+
+        // --- National Teams ---
+        "Egypt": "مصر",
+        "Saudi Arabia": "السعودية",
+        "Morocco": "المغرب",
+        "Algeria": "الجزائر",
+        "Tunisia": "تونس",
+        "Qatar": "قطر",
+        "Iraq": "العراق",
+        "Jordan": "الأردن",
+        "United Arab Emirates": "الإمارات",
+        "UAE": "الإمارات",
+        "Oman": "عمان",
+        "Kuwait": "الكويت",
+        "Bahrain": "البحرين",
+        "Syria": "سوريا",
+        "Palestine": "فلسطين",
+        "Lebanon": "لبنان",
+        "Sudan": "السودان",
+        "Libya": "ليبيا",
+        "Mauritania": "موريتانيا",
+        "France": "فرنسا",
+        "Germany": "ألمانيا",
+        "England": "إنجلترا",
+        "Spain": "إسبانيا",
+        "Italy": "إيطاليا",
+        "Portugal": "البرتغال",
+        "Netherlands": "هولندا",
+        "Belgium": "بلجيكا",
+        "Croatia": "كرواتيا",
+        "Argentina": "الأرجنتين",
+        "Brazil": "البرازيل",
+        "Uruguay": "أوروغواي",
+        "Colombia": "كولومبيا",
+        "Senegal": "السنغال",
+        "Nigeria": "نيجيريا",
+        "Ivory Coast": "كوت ديفوار",
+        "Cameroon": "الكاميرون",
+        "Ghana": "غانا",
+        "Japan": "اليابان",
+        "South Korea": "كوريا الجنوبية"
+    };
+
+    // Helper: translate team or league name to Arabic if available
+    function toArabic(name) {
+        if (!name) return '';
+        const trimmed = name.trim();
+        if (ARABIC_NAMES[trimmed]) return ARABIC_NAMES[trimmed];
+
+        const lower = trimmed.toLowerCase();
+        for (const [key, val] of Object.entries(ARABIC_NAMES)) {
+            if (key.toLowerCase() === lower) return val;
+        }
+
+        const stripped = trimmed.replace(/\b(FC|CF|SC|AC|AS|CD|UD)\b/gi, '').trim();
+        if (ARABIC_NAMES[stripped]) return ARABIC_NAMES[stripped];
+
+        return trimmed;
+    }
+
     // State
     let matchesData = [];
     let selectedCategory = 'all';
@@ -52,7 +347,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     });
 
-    // Helper: change current date by offset days
     function changeDate(daysOffset) {
         const currentDate = new Date(datePicker.value || new Date());
         currentDate.setDate(currentDate.getDate() + daysOffset);
@@ -108,13 +402,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const selectedDate = datePicker.value;
         
         const filtered = matchesData.filter(item => {
-            // Filter by date
             const matchDateStr = item.fixture.date ? item.fixture.date.substring(0, 10) : '';
             if (matchDateStr && matchDateStr !== selectedDate) {
                 return false;
             }
 
-            // Filter by category
             if (selectedCategory !== 'all') {
                 const category = item.league.category || 'all';
                 if (category !== selectedCategory) {
@@ -122,14 +414,23 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             }
 
-            // Filter by search query
             if (searchQuery) {
-                const homeName = (item.teams?.home?.name || '').toLowerCase();
-                const awayName = (item.teams?.away?.name || '').toLowerCase();
-                const leagueName = (item.league?.name || '').toLowerCase();
-                if (!homeName.includes(searchQuery) && !awayName.includes(searchQuery) && !leagueName.includes(searchQuery)) {
-                    return false;
-                }
+                const homeRaw = (item.teams?.home?.name || '').toLowerCase();
+                const awayRaw = (item.teams?.away?.name || '').toLowerCase();
+                const leagueRaw = (item.league?.name || '').toLowerCase();
+                
+                const homeAr = toArabic(item.teams?.home?.name || '').toLowerCase();
+                const awayAr = toArabic(item.teams?.away?.name || '').toLowerCase();
+                const leagueAr = toArabic(item.league?.name || '').toLowerCase();
+
+                const matched = homeRaw.includes(searchQuery) ||
+                                awayRaw.includes(searchQuery) ||
+                                leagueRaw.includes(searchQuery) ||
+                                homeAr.includes(searchQuery) ||
+                                awayAr.includes(searchQuery) ||
+                                leagueAr.includes(searchQuery);
+
+                if (!matched) return false;
             }
 
             return true;
@@ -141,7 +442,7 @@ document.addEventListener('DOMContentLoaded', () => {
             matchesContainer.innerHTML = `
                 <div class="empty-state">
                     <div class="icon">⚽</div>
-                    <p>لا توجد مباريات مطابقة للبحث أو لهذا اليوم المحدد (${selectedDate}).</p>
+                    <p>لا توجد مباريات لهذا اليوم المحدد (${selectedDate}) أو مطابقة لبحثك.</p>
                     <p style="font-size: 0.85rem; color: #94a3b8; margin-top: 0.5rem;">يمكنك تغيير التاريخ أو تصفح قسم آخر من القائمة العلوية.</p>
                 </div>
             `;
@@ -166,13 +467,14 @@ document.addEventListener('DOMContentLoaded', () => {
         for (const leagueId in groupedByLeague) {
             const group = groupedByLeague[leagueId];
             const league = group.info;
+            const leagueArabicName = toArabic(league.name || 'بطولة غير محددة');
 
             html += `
                 <div class="league-group">
                     <div class="league-header">
-                        ${league.logo ? `<img class="league-logo" src="${league.logo}" alt="${escapeHtml(league.name)}" onerror="this.style.display='none'">` : ''}
+                        ${league.logo ? `<img class="league-logo" src="${league.logo}" alt="${escapeHtml(leagueArabicName)}" onerror="this.style.display='none'">` : ''}
                         <div class="league-info">
-                            <h3>${escapeHtml(league.name || 'بطولة غير محددة')}</h3>
+                            <h3>${escapeHtml(leagueArabicName)}</h3>
                             <span>${escapeHtml(league.round || league.country || '')}</span>
                         </div>
                     </div>
@@ -194,8 +496,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Render individual match card
     function renderMatchCard(match) {
-        const home = match.teams?.home || { name: 'الفريق 1' };
-        const away = match.teams?.away || { name: 'الفريق 2' };
+        const homeRawName = match.teams?.home?.name || 'الفريق 1';
+        const awayRawName = match.teams?.away?.name || 'الفريق 2';
+        const homeName = toArabic(homeRawName);
+        const awayName = toArabic(awayRawName);
+
+        const home = match.teams?.home || {};
+        const away = match.teams?.away || {};
         const status = match.fixture?.status || {};
         const goals = match.goals || {};
         const broadcast = match.broadcast || {};
@@ -203,8 +510,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const statusInfo = getStatusInfo(status);
         const matchTimeFormatted = formatMatchTime(match.fixture?.date);
 
-        const isLive = ['1H', '2H', 'HT', 'ET', 'P', 'LIVE'].includes(status.short);
-        const isFinished = ['FT', 'AET', 'PEN'].includes(status.short);
         const isUpcoming = ['NS', 'TBD'].includes(status.short);
 
         let centerContent = '';
@@ -220,8 +525,8 @@ document.addEventListener('DOMContentLoaded', () => {
             <div class="match-card">
                 <div class="match-row">
                     <div class="team home">
-                        <span class="team-name">${escapeHtml(home.name)}</span>
-                        ${home.logo ? `<img class="team-logo" src="${home.logo}" alt="${escapeHtml(home.name)}" onerror="this.src='https://media.api-sports.io/football/teams/empty.png'">` : ''}
+                        <span class="team-name" title="${escapeHtml(homeName)}">${escapeHtml(homeName)}</span>
+                        ${home.logo ? `<img class="team-logo" src="${home.logo}" alt="${escapeHtml(homeName)}" onerror="this.src='https://media.api-sports.io/football/teams/empty.png'">` : ''}
                     </div>
 
                     <div class="match-center">
@@ -232,8 +537,8 @@ document.addEventListener('DOMContentLoaded', () => {
                     </div>
 
                     <div class="team away">
-                        ${away.logo ? `<img class="team-logo" src="${away.logo}" alt="${escapeHtml(away.name)}" onerror="this.src='https://media.api-sports.io/football/teams/empty.png'">` : ''}
-                        <span class="team-name">${escapeHtml(away.name)}</span>
+                        ${away.logo ? `<img class="team-logo" src="${away.logo}" alt="${escapeHtml(awayName)}" onerror="this.src='https://media.api-sports.io/football/teams/empty.png'">` : ''}
+                        <span class="team-name" title="${escapeHtml(awayName)}">${escapeHtml(awayName)}</span>
                     </div>
                 </div>
 
@@ -241,12 +546,12 @@ document.addEventListener('DOMContentLoaded', () => {
                     <div class="match-meta">
                         ${broadcast.channel ? `
                             <div class="meta-item">
-                                <span>📺 القناة:</span> <strong>${escapeHtml(broadcast.channel)}</strong>
+                                <span>📺</span> <strong>${escapeHtml(broadcast.channel)}</strong>
                             </div>
                         ` : ''}
                         ${broadcast.commentator ? `
                             <div class="meta-item">
-                                <span>🎙️ المعلق:</span> <strong>${escapeHtml(broadcast.commentator)}</strong>
+                                <span>🎙️</span> <strong>${escapeHtml(broadcast.commentator)}</strong>
                             </div>
                         ` : ''}
                     </div>
@@ -262,23 +567,23 @@ document.addEventListener('DOMContentLoaded', () => {
 
         switch (short) {
             case '1H':
-                return { text: `الشوط الأول (${elapsed ? elapsed + "'" : ''})`, className: 'live' };
+                return { text: `الشوط 1 (${elapsed ? elapsed + "'" : ''})`, className: 'live' };
             case '2H':
-                return { text: `الشوط الثاني (${elapsed ? elapsed + "'" : ''})`, className: 'live' };
+                return { text: `الشوط 2 (${elapsed ? elapsed + "'" : ''})`, className: 'live' };
             case 'HT':
-                return { text: 'استراحة الشوطين', className: 'live' };
+                return { text: 'استراحة', className: 'live' };
             case 'ET':
-                return { text: `وقت إضافي (${elapsed ? elapsed + "'" : ''})`, className: 'live' };
+                return { text: `إضافي (${elapsed ? elapsed + "'" : ''})`, className: 'live' };
             case 'P':
-                return { text: 'ركلات الترجيح', className: 'live' };
+                return { text: 'ركلات ترجيح', className: 'live' };
             case 'FT':
                 return { text: 'انتهت', className: 'finished' };
             case 'AET':
-                return { text: 'انتهت (وقت إضافي)', className: 'finished' };
+                return { text: 'انتهت (إضافي)', className: 'finished' };
             case 'PEN':
-                return { text: 'انتهت (ركلات ترجيح)', className: 'finished' };
+                return { text: 'انتهت (ترجيح)', className: 'finished' };
             case 'NS':
-                return { text: 'لم تبدأ بعد', className: 'upcoming' };
+                return { text: 'لم تبدأ', className: 'upcoming' };
             case 'PST':
                 return { text: 'مؤجلة', className: 'postponed' };
             case 'CANC':
@@ -288,7 +593,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Helper: Format ISO date string into Arabic time (e.g., 08:30 م)
     function formatMatchTime(dateStr) {
         if (!dateStr) return '--:--';
         try {
@@ -303,7 +607,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Helper: Format Date object to Arabic date string with time
     function formatDateArabic(date) {
         try {
             return date.toLocaleString('ar-EG', {
@@ -319,7 +622,6 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
-    // Helper: Sanitize HTML
     function escapeHtml(str) {
         if (!str) return '';
         return String(str)
@@ -330,6 +632,5 @@ document.addEventListener('DOMContentLoaded', () => {
             .replace(/'/g, '&#039;');
     }
 
-    // Start loading
     fetchMatches();
 });
