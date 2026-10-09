@@ -42,7 +42,6 @@ const API_BASE = 'https://v3.football.api-sports.io';
 const LEAGUE_CATEGORIES = {
     // Egyptian
     233: 'egyptian', // Egyptian Premier League
-    234: 'egyptian', // Egypt Cup
 
     // African Clubs
     12: 'african_club', // CAF Champions League
