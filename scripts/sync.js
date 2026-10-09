@@ -139,10 +139,10 @@ async function main() {
 
     const broadcasts = loadBroadcasts();
 
-    // Target range: yesterday, today, tomorrow, day after tomorrow (-1 to +2)
+    // Target range: yesterday (-1) to next 7 days (+7)
     const datesToFetch = [];
     const today = new Date();
-    for (let offset = -1; offset <= 2; offset++) {
+    for (let offset = -1; offset <= 7; offset++) {
         const d = new Date(today);
         d.setDate(d.getDate() + offset);
         datesToFetch.push(formatDate(d));
