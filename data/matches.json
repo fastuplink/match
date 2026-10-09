@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:13:23.358Z",
+  "lastUpdated": "2026-10-09T20:26:26.993Z",
   "matches": [
     {
       "fixture": {
@@ -9,7 +9,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 84
+          "elapsed": 90
         }
       },
       "league": {
@@ -33,8 +33,8 @@
         }
       },
       "goals": {
-        "home": 1,
-        "away": 0
+        "home": 2,
+        "away": 2
       },
       "broadcast": {
         "channel": "beIN Sports HD 5",
@@ -49,7 +49,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 69
+          "elapsed": 82
         }
       },
       "league": {
@@ -73,7 +73,7 @@
         }
       },
       "goals": {
-        "home": 1,
+        "home": 2,
         "away": 0
       },
       "broadcast": {
@@ -89,7 +89,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 56
+          "elapsed": 69
         }
       },
       "league": {
