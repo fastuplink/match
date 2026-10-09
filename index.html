@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>كورة ماتش | جدول مباريات كرة القدم</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="container header-content">
+            <div class="logo"><h1>⚽ كورة ماتش</h1></div>
+            <nav>
+                <ul>
+                    <li><a href="#" class="active" data-category="all">الرئيسية</a></li>
+                    <li><a href="#" data-category="national">المنتخبات</a></li>
+                    <li><a href="#" data-category="european_club">أوروبا</a></li>
+                    <li><a href="#" data-category="african_club">أفريقيا</a></li>
+                    <li><a href="#" data-category="egyptian">مصر</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <div class="dashboard-header">
+            <h2>جدول مباريات كرة القدم</h2>
+            <div class="last-update" id="lastUpdate">آخر تحديث: جاري التحميل...</div>
+        </div>
+
+        <div class="controls">
+            <div class="date-navigation">
+                <button id="prevDay" class="btn-icon" aria-label="اليوم السابق">◀</button>
+                <input type="date" id="datePicker" class="date-picker">
+                <button id="nextDay" class="btn-icon" aria-label="اليوم التالي">▶</button>
+                <button id="todayBtn" class="btn-secondary">اليوم</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="ابحث عن فريق أو بطولة...">
+            </div>
+        </div>
+
+        <div class="match-count" id="matchCount">عدد المباريات: 0</div>
+        <div id="matchesContainer" class="matches-grid">
+            <div class="loading-state">جاري تحميل البيانات...</div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>بيانات المباريات مقدمة من API-Football. جميع الحقوق محفوظة &copy; 2026 كورة ماتش.</p>
+            <p class="disclaimer">معلومات البث التلفزيوني يتم التحقق منها يدوياً وقد لا تكون متاحة لجميع المباريات.</p>
+        </div>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+</html>

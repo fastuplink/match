@@ -1,0 +1,13 @@
+{
+  "name": "kora-match",
+  "version": "1.0.0",
+  "description": "Kora Match Football Fixtures",
+  "main": "scripts/sync.js",
+  "scripts": {
+    "sync": "node scripts/sync.js",
+    "start": "node scripts/serve.js"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7"
+  }
+}
