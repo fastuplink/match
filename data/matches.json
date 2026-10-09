@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T18:36:05.795Z",
+  "lastUpdated": "2026-10-09T20:04:06.097Z",
   "matches": [
     {
       "fixture": {
@@ -7,9 +7,9 @@
         "date": "2026-10-09T18:30:00+00:00",
         "timestamp": 1791570600,
         "status": {
-          "long": "First Half",
-          "short": "1H",
-          "elapsed": 6
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 74
         }
       },
       "league": {
@@ -47,9 +47,9 @@
         "date": "2026-10-09T18:45:00+00:00",
         "timestamp": 1791571500,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 59
         }
       },
       "league": {
@@ -73,8 +73,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "broadcast": {
         "channel": "beIN Sports HD 4",
@@ -87,9 +87,9 @@
         "date": "2026-10-09T19:00:00+00:00",
         "timestamp": 1791572400,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 46
         }
       },
       "league": {
@@ -113,52 +113,12 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 3",
         "commentator": "علي محمد علي"
-      }
-    },
-    {
-      "fixture": {
-        "id": 1636815,
-        "date": "2026-10-09T21:00:00+00:00",
-        "timestamp": 1791579600,
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "id": 234,
-        "name": "Liga Nacional",
-        "country": "Honduras",
-        "logo": "https://media.api-sports.io/football/leagues/234.png",
-        "round": "Apertura - 9",
-        "category": "egyptian"
-      },
-      "teams": {
-        "home": {
-          "id": 1057,
-          "name": "Platense FC",
-          "logo": "https://media.api-sports.io/football/teams/1057.png"
-        },
-        "away": {
-          "id": 1053,
-          "name": "Juticalpa",
-          "logo": "https://media.api-sports.io/football/teams/1053.png"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "broadcast": {
-        "channel": "قناة غير معلنة",
-        "commentator": "غير محدد"
       }
     },
     {
@@ -1119,86 +1079,6 @@
       "broadcast": {
         "channel": "beIN Sports HD 3",
         "commentator": "علي محمد علي"
-      }
-    },
-    {
-      "fixture": {
-        "id": 1636817,
-        "date": "2026-10-10T21:00:00+00:00",
-        "timestamp": 1791666000,
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "id": 234,
-        "name": "Liga Nacional",
-        "country": "Honduras",
-        "logo": "https://media.api-sports.io/football/leagues/234.png",
-        "round": "Apertura - 9",
-        "category": "egyptian"
-      },
-      "teams": {
-        "home": {
-          "id": 21858,
-          "name": "Génesis",
-          "logo": "https://media.api-sports.io/football/teams/21858.png"
-        },
-        "away": {
-          "id": 1051,
-          "name": "CD Olimpia",
-          "logo": "https://media.api-sports.io/football/teams/1051.png"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "broadcast": {
-        "channel": "قناة غير معلنة",
-        "commentator": "غير محدد"
-      }
-    },
-    {
-      "fixture": {
-        "id": 1636816,
-        "date": "2026-10-10T23:15:00+00:00",
-        "timestamp": 1791674100,
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "id": 234,
-        "name": "Liga Nacional",
-        "country": "Honduras",
-        "logo": "https://media.api-sports.io/football/leagues/234.png",
-        "round": "Apertura - 9",
-        "category": "egyptian"
-      },
-      "teams": {
-        "home": {
-          "id": 1055,
-          "name": "CD Motagua",
-          "logo": "https://media.api-sports.io/football/teams/1055.png"
-        },
-        "away": {
-          "id": 11685,
-          "name": "Atlético Choloma",
-          "logo": "https://media.api-sports.io/football/teams/11685.png"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "broadcast": {
-        "channel": "قناة غير معلنة",
-        "commentator": "غير محدد"
       }
     }
   ]
