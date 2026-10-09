@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-09T20:04:06.097Z",
+  "lastUpdated": "2026-10-09T20:13:23.358Z",
   "matches": [
     {
       "fixture": {
@@ -9,7 +9,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 74
+          "elapsed": 84
         }
       },
       "league": {
@@ -33,7 +33,7 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 0
       },
       "broadcast": {
@@ -49,7 +49,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 59
+          "elapsed": 69
         }
       },
       "league": {
@@ -89,7 +89,7 @@
         "status": {
           "long": "Second Half",
           "short": "2H",
-          "elapsed": 46
+          "elapsed": 56
         }
       },
       "league": {
