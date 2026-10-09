@@ -58,6 +58,14 @@ const LEAGUE_CATEGORIES = {
     78: 'european_club',  // Bundesliga
     61: 'european_club',  // Ligue 1
     531: 'european_club', // UEFA Super Cup
+    94: 'european_club',  // Primeira Liga
+    88: 'european_club',  // Eredivisie
+    203: 'european_club', // Super Lig
+    179: 'european_club', // Scottish Premiership
+
+     // Saudi Arabia
+    307: 'european_club', // Saudi Pro League
+    
 
     // National Teams
     1: 'national',  // World Cup
