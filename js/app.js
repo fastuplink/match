@@ -157,6 +157,45 @@ document.addEventListener('DOMContentLoaded', () => {
             groupedByLeague[leagueId].matches.push(match);
         });
 
+            // Filter and Render Matches
+    function renderFilteredMatches() {
+        const selectedDate = datePicker.value;
+        
+        const filtered = matchesData.filter(item => {
+            // استبعاد أي دوري غير مرغوب فيه مثل Liga Nacional
+            const leagueName = (item.league?.name || '').toLowerCase();
+            if (item.league?.id === 234 || leagueName.includes('liga nacional')) {
+                return false;
+            }
+
+            // تصفية حسب التاريخ
+            const matchDateStr = item.fixture.date ? item.fixture.date.substring(0, 10) : '';
+            if (matchDateStr && matchDateStr !== selectedDate) {
+                return false;
+            }
+
+            // تصفية حسب القسم
+            if (selectedCategory !== 'all') {
+                const category = item.league.category || 'all';
+                if (category !== selectedCategory) {
+                    return false;
+                }
+            }
+
+            // البحث
+            if (searchQuery) {
+                const homeName = (item.teams?.home?.name || '').toLowerCase();
+                const awayName = (item.teams?.away?.name || '').toLowerCase();
+                if (!homeName.includes(searchQuery) && !awayName.includes(searchQuery) && !leagueName.includes(searchQuery)) {
+                    return false;
+                }
+            }
+
+            return true;
+        });
+
+        matchCountEl.textContent = `عدد المباريات: ${filtered.length}`;
+
         // Generate HTML
         let html = '';
         for (const leagueId in groupedByLeague) {
