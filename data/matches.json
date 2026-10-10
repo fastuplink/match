@@ -1,6 +1,246 @@
 {
-  "lastUpdated": "2026-10-09T20:44:29.537Z",
+  "lastUpdated": "2026-10-10T03:54:31.590Z",
   "matches": [
+    {
+      "fixture": {
+        "id": 1603041,
+        "date": "2026-10-09T13:50:00+00:00",
+        "timestamp": 1791553800,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 10509,
+          "name": "Al Kholood",
+          "logo": "https://media.api-sports.io/football/teams/10509.png"
+        },
+        "away": {
+          "id": 2933,
+          "name": "Al-Qadisiyah FC",
+          "logo": "https://media.api-sports.io/football/teams/2933.png"
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 5
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603037,
+        "date": "2026-10-09T14:55:00+00:00",
+        "timestamp": 1791557700,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2931,
+          "name": "Al-Fateh",
+          "logo": "https://media.api-sports.io/football/teams/2931.png"
+        },
+        "away": {
+          "id": 2929,
+          "name": "Al-Ahli Jeddah",
+          "logo": "https://media.api-sports.io/football/teams/2929.png"
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 4
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584424,
+        "date": "2026-10-09T17:00:00+00:00",
+        "timestamp": 1791565200,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 645,
+          "name": "Galatasaray",
+          "logo": "https://media.api-sports.io/football/teams/645.png"
+        },
+        "away": {
+          "id": 1004,
+          "name": "Kasımpaşa",
+          "logo": "https://media.api-sports.io/football/teams/1004.png"
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 1
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575516,
+        "date": "2026-10-09T17:45:00+00:00",
+        "timestamp": 1791567900,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 215,
+          "name": "Moreirense",
+          "logo": "https://media.api-sports.io/football/teams/215.png"
+        },
+        "away": {
+          "id": 762,
+          "name": "GIL Vicente",
+          "logo": "https://media.api-sports.io/football/teams/762.png"
+        }
+      },
+      "goals": {
+        "home": 0,
+        "away": 1
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552180,
+        "date": "2026-10-09T18:00:00+00:00",
+        "timestamp": 1791568800,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 197,
+          "name": "PSV Eindhoven",
+          "logo": "https://media.api-sports.io/football/teams/197.png"
+        },
+        "away": {
+          "id": 210,
+          "name": "Heerenveen",
+          "logo": "https://media.api-sports.io/football/teams/210.png"
+        }
+      },
+      "goals": {
+        "home": 2,
+        "away": 0
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603042,
+        "date": "2026-10-09T18:00:00+00:00",
+        "timestamp": 1791568800,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2939,
+          "name": "Al-Nassr",
+          "logo": "https://media.api-sports.io/football/teams/2939.png"
+        },
+        "away": {
+          "id": 26738,
+          "name": "Al Diriyah",
+          "logo": "https://media.api-sports.io/football/teams/26738.png"
+        }
+      },
+      "goals": {
+        "home": 3,
+        "away": 0
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
     {
       "fixture": {
         "id": 1575176,
@@ -87,9 +327,9 @@
         "date": "2026-10-09T19:00:00+00:00",
         "timestamp": 1791572400,
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 87
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -113,12 +353,92 @@
         }
       },
       "goals": {
-        "home": 0,
+        "home": 1,
         "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 3",
         "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575512,
+        "date": "2026-10-09T19:15:00+00:00",
+        "timestamp": 1791573300,
+        "status": {
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 217,
+          "name": "SC Braga",
+          "logo": "https://media.api-sports.io/football/teams/217.png"
+        },
+        "away": {
+          "id": 228,
+          "name": "Sporting CP",
+          "logo": "https://media.api-sports.io/football/teams/228.png"
+        }
+      },
+      "goals": {
+        "home": 1,
+        "away": 3
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584426,
+        "date": "2026-10-10T10:30:00+00:00",
+        "timestamp": 1791628200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 997,
+          "name": "Gençlerbirliği S.K.",
+          "logo": "https://media.api-sports.io/football/teams/997.png"
+        },
+        "away": {
+          "id": 3579,
+          "name": "Amed",
+          "logo": "https://media.api-sports.io/football/teams/3579.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
       }
     },
     {
@@ -239,6 +559,86 @@
       "broadcast": {
         "channel": "StarzPlay / AD Sports",
         "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584421,
+        "date": "2026-10-10T13:00:00+00:00",
+        "timestamp": 1791637200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 996,
+          "name": "Alanyaspor",
+          "logo": "https://media.api-sports.io/football/teams/996.png"
+        },
+        "away": {
+          "id": 1009,
+          "name": "Erzurumspor FK",
+          "logo": "https://media.api-sports.io/football/teams/1009.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584429,
+        "date": "2026-10-10T13:00:00+00:00",
+        "timestamp": 1791637200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 3603,
+          "name": "Samsunspor",
+          "logo": "https://media.api-sports.io/football/teams/3603.png"
+        },
+        "away": {
+          "id": 998,
+          "name": "Trabzonspor",
+          "logo": "https://media.api-sports.io/football/teams/998.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
       }
     },
     {
@@ -443,6 +843,206 @@
     },
     {
       "fixture": {
+        "id": 1603039,
+        "date": "2026-10-10T13:50:00+00:00",
+        "timestamp": 1791640200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2945,
+          "name": "Al-Hazm",
+          "logo": "https://media.api-sports.io/football/teams/2945.png"
+        },
+        "away": {
+          "id": 10513,
+          "name": "NEOM",
+          "logo": "https://media.api-sports.io/football/teams/10513.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1556671,
+        "date": "2026-10-10T14:00:00+00:00",
+        "timestamp": 1791640800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 1386,
+          "name": "Dundee Utd",
+          "logo": "https://media.api-sports.io/football/teams/1386.png"
+        },
+        "away": {
+          "id": 249,
+          "name": "Hibernian",
+          "logo": "https://media.api-sports.io/football/teams/249.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1556672,
+        "date": "2026-10-10T14:00:00+00:00",
+        "timestamp": 1791640800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 1389,
+          "name": "Falkirk",
+          "logo": "https://media.api-sports.io/football/teams/1389.png"
+        },
+        "away": {
+          "id": 253,
+          "name": "Dundee",
+          "logo": "https://media.api-sports.io/football/teams/253.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1556673,
+        "date": "2026-10-10T14:00:00+00:00",
+        "timestamp": 1791640800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 254,
+          "name": "Heart Of Midlothian",
+          "logo": "https://media.api-sports.io/football/teams/254.png"
+        },
+        "away": {
+          "id": 251,
+          "name": "ST Mirren",
+          "logo": "https://media.api-sports.io/football/teams/251.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1556675,
+        "date": "2026-10-10T14:00:00+00:00",
+        "timestamp": 1791640800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 257,
+          "name": "Rangers",
+          "logo": "https://media.api-sports.io/football/teams/257.png"
+        },
+        "away": {
+          "id": 250,
+          "name": "Kilmarnock",
+          "logo": "https://media.api-sports.io/football/teams/250.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
         "id": 1557418,
         "date": "2026-10-10T14:00:00+00:00",
         "timestamp": 1791640800,
@@ -643,6 +1243,126 @@
     },
     {
       "fixture": {
+        "id": 1552182,
+        "date": "2026-10-10T14:30:00+00:00",
+        "timestamp": 1791642600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 410,
+          "name": "GO Ahead Eagles",
+          "logo": "https://media.api-sports.io/football/teams/410.png"
+        },
+        "away": {
+          "id": 426,
+          "name": "Sparta Rotterdam",
+          "logo": "https://media.api-sports.io/football/teams/426.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575513,
+        "date": "2026-10-10T14:30:00+00:00",
+        "timestamp": 1791642600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png"
+        },
+        "away": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603036,
+        "date": "2026-10-10T14:55:00+00:00",
+        "timestamp": 1791644100,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2934,
+          "name": "Al-Ettifaq",
+          "logo": "https://media.api-sports.io/football/teams/2934.png"
+        },
+        "away": {
+          "id": 2928,
+          "name": "Al Khaleej Saihat",
+          "logo": "https://media.api-sports.io/football/teams/2928.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
         "id": 1552776,
         "date": "2026-10-10T15:15:00+00:00",
         "timestamp": 1791645300,
@@ -719,6 +1439,46 @@
       "broadcast": {
         "channel": "StarzPlay / AD Sports",
         "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584428,
+        "date": "2026-10-10T16:00:00+00:00",
+        "timestamp": 1791648000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 1007,
+          "name": "Rizespor",
+          "logo": "https://media.api-sports.io/football/teams/1007.png"
+        },
+        "away": {
+          "id": 611,
+          "name": "Fenerbahçe",
+          "logo": "https://media.api-sports.io/football/teams/611.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
       }
     },
     {
@@ -839,6 +1599,166 @@
       "broadcast": {
         "channel": "beIN Sports HD 5",
         "commentator": "حسن العيدروس"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552181,
+        "date": "2026-10-10T16:45:00+00:00",
+        "timestamp": 1791650700,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 209,
+          "name": "Feyenoord",
+          "logo": "https://media.api-sports.io/football/teams/209.png"
+        },
+        "away": {
+          "id": 201,
+          "name": "AZ Alkmaar",
+          "logo": "https://media.api-sports.io/football/teams/201.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575515,
+        "date": "2026-10-10T17:00:00+00:00",
+        "timestamp": 1791651600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 214,
+          "name": "Maritimo",
+          "logo": "https://media.api-sports.io/football/teams/214.png"
+        },
+        "away": {
+          "id": 212,
+          "name": "FC Porto",
+          "logo": "https://media.api-sports.io/football/teams/212.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552184,
+        "date": "2026-10-10T18:00:00+00:00",
+        "timestamp": 1791655200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 205,
+          "name": "Fortuna Sittard",
+          "logo": "https://media.api-sports.io/football/teams/205.png"
+        },
+        "away": {
+          "id": 415,
+          "name": "Twente",
+          "logo": "https://media.api-sports.io/football/teams/415.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603040,
+        "date": "2026-10-10T18:00:00+00:00",
+        "timestamp": 1791655200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2932,
+          "name": "Al-Hilal Saudi FC",
+          "logo": "https://media.api-sports.io/football/teams/2932.png"
+        },
+        "away": {
+          "id": 2938,
+          "name": "Al-Ittihad FC",
+          "logo": "https://media.api-sports.io/football/teams/2938.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
       }
     },
     {
@@ -1043,6 +1963,46 @@
     },
     {
       "fixture": {
+        "id": 1552183,
+        "date": "2026-10-10T19:00:00+00:00",
+        "timestamp": 1791658800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 194,
+          "name": "Ajax",
+          "logo": "https://media.api-sports.io/football/teams/194.png"
+        },
+        "away": {
+          "id": 413,
+          "name": "NEC Nijmegen",
+          "logo": "https://media.api-sports.io/football/teams/413.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
         "id": 1570411,
         "date": "2026-10-10T19:00:00+00:00",
         "timestamp": 1791658800,
@@ -1079,6 +2039,1406 @@
       "broadcast": {
         "channel": "beIN Sports HD 3",
         "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575509,
+        "date": "2026-10-10T19:30:00+00:00",
+        "timestamp": 1791660600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 238,
+          "name": "Academico Viseu",
+          "logo": "https://media.api-sports.io/football/teams/238.png"
+        },
+        "away": {
+          "id": 230,
+          "name": "Estoril",
+          "logo": "https://media.api-sports.io/football/teams/230.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552185,
+        "date": "2026-10-11T10:15:00+00:00",
+        "timestamp": 1791713700,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 207,
+          "name": "Utrecht",
+          "logo": "https://media.api-sports.io/football/teams/207.png"
+        },
+        "away": {
+          "id": 195,
+          "name": "Willem II",
+          "logo": "https://media.api-sports.io/football/teams/195.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1550139,
+        "date": "2026-10-11T10:30:00+00:00",
+        "timestamp": 1791714600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 895,
+          "name": "Como",
+          "logo": "https://media.api-sports.io/football/teams/895.png"
+        },
+        "away": {
+          "id": 497,
+          "name": "AS Roma",
+          "logo": "https://media.api-sports.io/football/teams/497.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "StarzPlay / AD Sports",
+        "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584427,
+        "date": "2026-10-11T10:30:00+00:00",
+        "timestamp": 1791714600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 607,
+          "name": "Konyaspor",
+          "logo": "https://media.api-sports.io/football/teams/607.png"
+        },
+        "away": {
+          "id": 564,
+          "name": "Başakşehir",
+          "logo": "https://media.api-sports.io/football/teams/564.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1556674,
+        "date": "2026-10-11T11:00:00+00:00",
+        "timestamp": 1791716400,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 256,
+          "name": "Motherwell",
+          "logo": "https://media.api-sports.io/football/teams/256.png"
+        },
+        "away": {
+          "id": 247,
+          "name": "Celtic",
+          "logo": "https://media.api-sports.io/football/teams/247.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1570406,
+        "date": "2026-10-11T12:00:00+00:00",
+        "timestamp": 1791720000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 797,
+          "name": "Elche",
+          "logo": "https://media.api-sports.io/football/teams/797.png"
+        },
+        "away": {
+          "id": 538,
+          "name": "Celta Vigo",
+          "logo": "https://media.api-sports.io/football/teams/538.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 3",
+        "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552186,
+        "date": "2026-10-11T12:30:00+00:00",
+        "timestamp": 1791721800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 427,
+          "name": "Telstar",
+          "logo": "https://media.api-sports.io/football/teams/427.png"
+        },
+        "away": {
+          "id": 198,
+          "name": "ADO Den Haag",
+          "logo": "https://media.api-sports.io/football/teams/198.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552187,
+        "date": "2026-10-11T12:30:00+00:00",
+        "timestamp": 1791721800,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 193,
+          "name": "PEC Zwolle",
+          "logo": "https://media.api-sports.io/football/teams/193.png"
+        },
+        "away": {
+          "id": 420,
+          "name": "Cambuur",
+          "logo": "https://media.api-sports.io/football/teams/420.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1550142,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 487,
+          "name": "Lazio",
+          "logo": "https://media.api-sports.io/football/teams/487.png"
+        },
+        "away": {
+          "id": 1579,
+          "name": "Monza",
+          "logo": "https://media.api-sports.io/football/teams/1579.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "StarzPlay / AD Sports",
+        "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1550143,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 867,
+          "name": "Lecce",
+          "logo": "https://media.api-sports.io/football/teams/867.png"
+        },
+        "away": {
+          "id": 500,
+          "name": "Bologna",
+          "logo": "https://media.api-sports.io/football/teams/500.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "StarzPlay / AD Sports",
+        "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552779,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 84,
+          "name": "Nice",
+          "logo": "https://media.api-sports.io/football/teams/84.png"
+        },
+        "away": {
+          "id": 95,
+          "name": "Strasbourg",
+          "logo": "https://media.api-sports.io/football/teams/95.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 4",
+        "commentator": "جواد بدة"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1556670,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 179,
+        "name": "Premiership",
+        "country": "Scotland",
+        "logo": "https://media.api-sports.io/football/leagues/179.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 252,
+          "name": "Aberdeen",
+          "logo": "https://media.api-sports.io/football/teams/252.png"
+        },
+        "away": {
+          "id": 258,
+          "name": "ST Johnstone",
+          "logo": "https://media.api-sports.io/football/teams/258.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1557421,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 52,
+          "name": "Crystal Palace",
+          "logo": "https://media.api-sports.io/football/teams/52.png"
+        },
+        "away": {
+          "id": 65,
+          "name": "Nottingham Forest",
+          "logo": "https://media.api-sports.io/football/teams/65.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 1",
+        "commentator": "عصام الشوالي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1557422,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 64,
+          "name": "Hull City",
+          "logo": "https://media.api-sports.io/football/teams/64.png"
+        },
+        "away": {
+          "id": 45,
+          "name": "Everton",
+          "logo": "https://media.api-sports.io/football/teams/45.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 1",
+        "commentator": "عصام الشوالي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584425,
+        "date": "2026-10-11T13:00:00+00:00",
+        "timestamp": 1791723600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 3573,
+          "name": "Gaziantep FK",
+          "logo": "https://media.api-sports.io/football/teams/3573.png"
+        },
+        "away": {
+          "id": 6343,
+          "name": "Çorum FK",
+          "logo": "https://media.api-sports.io/football/teams/6343.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575183,
+        "date": "2026-10-11T13:30:00+00:00",
+        "timestamp": 1791725400,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "round": "Regular Season - 5",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 192,
+          "name": "1. FC Köln",
+          "logo": "https://media.api-sports.io/football/teams/192.png"
+        },
+        "away": {
+          "id": 163,
+          "name": "Borussia Mönchengladbach",
+          "logo": "https://media.api-sports.io/football/teams/163.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 5",
+        "commentator": "حسن العيدروس"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603038,
+        "date": "2026-10-11T13:40:00+00:00",
+        "timestamp": 1791726000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2944,
+          "name": "Al-Fayha",
+          "logo": "https://media.api-sports.io/football/teams/2944.png"
+        },
+        "away": {
+          "id": 10511,
+          "name": "Al Riyadh",
+          "logo": "https://media.api-sports.io/football/teams/10511.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1612249,
+        "date": "2026-10-11T14:00:00+00:00",
+        "timestamp": 1791727200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 233,
+        "name": "Premier League",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/233.png",
+        "round": "Regular Season - 6",
+        "category": "egyptian"
+      },
+      "teams": {
+        "home": {
+          "id": 13822,
+          "name": "Olympic El Qanah",
+          "logo": "https://media.api-sports.io/football/teams/13822.png"
+        },
+        "away": {
+          "id": 1031,
+          "name": "AL Masry",
+          "logo": "https://media.api-sports.io/football/teams/1031.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "OnTime Sports 1",
+        "commentator": "مدحت شلبي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1570412,
+        "date": "2026-10-11T14:15:00+00:00",
+        "timestamp": 1791728100,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 548,
+          "name": "Real Sociedad",
+          "logo": "https://media.api-sports.io/football/teams/548.png"
+        },
+        "away": {
+          "id": 544,
+          "name": "Deportivo La Coruna",
+          "logo": "https://media.api-sports.io/football/teams/544.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 3",
+        "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575517,
+        "date": "2026-10-11T14:30:00+00:00",
+        "timestamp": 1791729000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 226,
+          "name": "Rio Ave",
+          "logo": "https://media.api-sports.io/football/teams/226.png"
+        },
+        "away": {
+          "id": 225,
+          "name": "Nacional",
+          "logo": "https://media.api-sports.io/football/teams/225.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552188,
+        "date": "2026-10-11T14:45:00+00:00",
+        "timestamp": 1791729900,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 88,
+        "name": "Eredivisie",
+        "country": "Netherlands",
+        "logo": "https://media.api-sports.io/football/leagues/88.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 196,
+          "name": "Excelsior",
+          "logo": "https://media.api-sports.io/football/teams/196.png"
+        },
+        "away": {
+          "id": 202,
+          "name": "Groningen",
+          "logo": "https://media.api-sports.io/football/teams/202.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552781,
+        "date": "2026-10-11T15:15:00+00:00",
+        "timestamp": 1791731700,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 94,
+          "name": "Rennes",
+          "logo": "https://media.api-sports.io/football/teams/94.png"
+        },
+        "away": {
+          "id": 108,
+          "name": "Auxerre",
+          "logo": "https://media.api-sports.io/football/teams/108.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 4",
+        "commentator": "جواد بدة"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603035,
+        "date": "2026-10-11T15:25:00+00:00",
+        "timestamp": 1791732300,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2951,
+          "name": "Abha",
+          "logo": "https://media.api-sports.io/football/teams/2951.png"
+        },
+        "away": {
+          "id": 2930,
+          "name": "Al-Faisaly FC",
+          "logo": "https://media.api-sports.io/football/teams/2930.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1557424,
+        "date": "2026-10-11T15:30:00+00:00",
+        "timestamp": 1791732600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 39,
+        "name": "Premier League",
+        "country": "England",
+        "logo": "https://media.api-sports.io/football/leagues/39.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 40,
+          "name": "Liverpool",
+          "logo": "https://media.api-sports.io/football/teams/40.png"
+        },
+        "away": {
+          "id": 50,
+          "name": "Manchester City",
+          "logo": "https://media.api-sports.io/football/teams/50.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 1",
+        "commentator": "عصام الشوالي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575179,
+        "date": "2026-10-11T15:30:00+00:00",
+        "timestamp": 1791732600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 78,
+        "name": "Bundesliga",
+        "country": "Germany",
+        "logo": "https://media.api-sports.io/football/leagues/78.png",
+        "round": "Regular Season - 5",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 160,
+          "name": "SC Freiburg",
+          "logo": "https://media.api-sports.io/football/teams/160.png"
+        },
+        "away": {
+          "id": 174,
+          "name": "FC Schalke 04",
+          "logo": "https://media.api-sports.io/football/teams/174.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 5",
+        "commentator": "حسن العيدروس"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1550145,
+        "date": "2026-10-11T16:00:00+00:00",
+        "timestamp": 1791734400,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 488,
+          "name": "Sassuolo",
+          "logo": "https://media.api-sports.io/football/teams/488.png"
+        },
+        "away": {
+          "id": 489,
+          "name": "AC Milan",
+          "logo": "https://media.api-sports.io/football/teams/489.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "StarzPlay / AD Sports",
+        "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1584422,
+        "date": "2026-10-11T16:00:00+00:00",
+        "timestamp": 1791734400,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 203,
+        "name": "Süper Lig",
+        "country": "Turkey",
+        "logo": "https://media.api-sports.io/football/leagues/203.png",
+        "round": "Regular Season - 7",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 549,
+          "name": "Beşiktaş",
+          "logo": "https://media.api-sports.io/football/teams/549.png"
+        },
+        "away": {
+          "id": 7411,
+          "name": "Kocaelispor",
+          "logo": "https://media.api-sports.io/football/teams/7411.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1570405,
+        "date": "2026-10-11T16:30:00+00:00",
+        "timestamp": 1791736200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 543,
+          "name": "Real Betis",
+          "logo": "https://media.api-sports.io/football/teams/543.png"
+        },
+        "away": {
+          "id": 727,
+          "name": "Osasuna",
+          "logo": "https://media.api-sports.io/football/teams/727.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 3",
+        "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575511,
+        "date": "2026-10-11T17:00:00+00:00",
+        "timestamp": 1791738000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 211,
+          "name": "Benfica",
+          "logo": "https://media.api-sports.io/football/teams/211.png"
+        },
+        "away": {
+          "id": 224,
+          "name": "Vitória SC",
+          "logo": "https://media.api-sports.io/football/teams/224.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1612250,
+        "date": "2026-10-11T17:00:00+00:00",
+        "timestamp": 1791738000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 233,
+        "name": "Premier League",
+        "country": "Egypt",
+        "logo": "https://media.api-sports.io/football/leagues/233.png",
+        "round": "Regular Season - 6",
+        "category": "egyptian"
+      },
+      "teams": {
+        "home": {
+          "id": 1040,
+          "name": "Zamalek SC",
+          "logo": "https://media.api-sports.io/football/teams/1040.png"
+        },
+        "away": {
+          "id": 1577,
+          "name": "Al Ahly",
+          "logo": "https://media.api-sports.io/football/teams/1577.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "OnTime Sports 1",
+        "commentator": "مدحت شلبي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1603043,
+        "date": "2026-10-11T18:00:00+00:00",
+        "timestamp": 1791741600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 307,
+        "name": "Pro League",
+        "country": "Saudi-Arabia",
+        "logo": "https://media.api-sports.io/football/leagues/307.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 2940,
+          "name": "Al Shabab",
+          "logo": "https://media.api-sports.io/football/teams/2940.png"
+        },
+        "away": {
+          "id": 2936,
+          "name": "Al Taawon",
+          "logo": "https://media.api-sports.io/football/teams/2936.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1550138,
+        "date": "2026-10-11T18:45:00+00:00",
+        "timestamp": 1791744300,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 135,
+        "name": "Serie A",
+        "country": "Italy",
+        "logo": "https://media.api-sports.io/football/leagues/135.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 490,
+          "name": "Cagliari",
+          "logo": "https://media.api-sports.io/football/teams/490.png"
+        },
+        "away": {
+          "id": 496,
+          "name": "Juventus",
+          "logo": "https://media.api-sports.io/football/teams/496.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "StarzPlay / AD Sports",
+        "commentator": "فارس عوض"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1552782,
+        "date": "2026-10-11T18:45:00+00:00",
+        "timestamp": 1791744300,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 61,
+        "name": "Ligue 1",
+        "country": "France",
+        "logo": "https://media.api-sports.io/football/leagues/61.png",
+        "round": "Regular Season - 6",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 110,
+          "name": "Estac Troyes",
+          "logo": "https://media.api-sports.io/football/teams/110.png"
+        },
+        "away": {
+          "id": 81,
+          "name": "Marseille",
+          "logo": "https://media.api-sports.io/football/teams/81.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 4",
+        "commentator": "جواد بدة"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1570409,
+        "date": "2026-10-11T19:00:00+00:00",
+        "timestamp": 1791745200,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 140,
+        "name": "La Liga",
+        "country": "Spain",
+        "logo": "https://media.api-sports.io/football/leagues/140.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 4665,
+          "name": "Racing Santander",
+          "logo": "https://media.api-sports.io/football/teams/4665.png"
+        },
+        "away": {
+          "id": 532,
+          "name": "Valencia",
+          "logo": "https://media.api-sports.io/football/teams/532.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "beIN Sports HD 3",
+        "commentator": "علي محمد علي"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575510,
+        "date": "2026-10-11T19:30:00+00:00",
+        "timestamp": 1791747000,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 240,
+          "name": "Arouca",
+          "logo": "https://media.api-sports.io/football/teams/240.png"
+        },
+        "away": {
+          "id": 15130,
+          "name": "Estrela",
+          "logo": "https://media.api-sports.io/football/teams/15130.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
       }
     }
   ]
