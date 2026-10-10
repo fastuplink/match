@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-10T03:54:31.590Z",
+  "lastUpdated": "2026-10-10T11:45:45.564Z",
   "matches": [
     {
       "fixture": {
@@ -407,9 +407,9 @@
         "date": "2026-10-10T10:30:00+00:00",
         "timestamp": 1791628200,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 55
         }
       },
       "league": {
@@ -433,8 +433,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -447,9 +447,9 @@
         "date": "2026-10-10T11:30:00+00:00",
         "timestamp": 1791631800,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 15
         }
       },
       "league": {
@@ -473,8 +473,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "broadcast": {
         "channel": "beIN Sports HD 1",
@@ -1283,46 +1283,6 @@
     },
     {
       "fixture": {
-        "id": 1575513,
-        "date": "2026-10-10T14:30:00+00:00",
-        "timestamp": 1791642600,
-        "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
-        }
-      },
-      "league": {
-        "id": 94,
-        "name": "Primeira Liga",
-        "country": "Portugal",
-        "logo": "https://media.api-sports.io/football/leagues/94.png",
-        "round": "Regular Season - 8",
-        "category": "european_club"
-      },
-      "teams": {
-        "home": {
-          "id": 4716,
-          "name": "Casa Pia",
-          "logo": "https://media.api-sports.io/football/teams/4716.png"
-        },
-        "away": {
-          "id": 227,
-          "name": "Santa Clara",
-          "logo": "https://media.api-sports.io/football/teams/227.png"
-        }
-      },
-      "goals": {
-        "home": null,
-        "away": null
-      },
-      "broadcast": {
-        "channel": "قناة غير معلنة",
-        "commentator": "غير محدد"
-      }
-    },
-    {
-      "fixture": {
         "id": 1603036,
         "date": "2026-10-10T14:55:00+00:00",
         "timestamp": 1791644100,
@@ -2070,6 +2030,46 @@
           "id": 230,
           "name": "Estoril",
           "logo": "https://media.api-sports.io/football/teams/230.png"
+        }
+      },
+      "goals": {
+        "home": null,
+        "away": null
+      },
+      "broadcast": {
+        "channel": "قناة غير معلنة",
+        "commentator": "غير محدد"
+      }
+    },
+    {
+      "fixture": {
+        "id": 1575513,
+        "date": "2026-10-10T19:30:00+00:00",
+        "timestamp": 1791660600,
+        "status": {
+          "long": "Not Started",
+          "short": "NS",
+          "elapsed": null
+        }
+      },
+      "league": {
+        "id": 94,
+        "name": "Primeira Liga",
+        "country": "Portugal",
+        "logo": "https://media.api-sports.io/football/leagues/94.png",
+        "round": "Regular Season - 8",
+        "category": "european_club"
+      },
+      "teams": {
+        "home": {
+          "id": 4716,
+          "name": "Casa Pia",
+          "logo": "https://media.api-sports.io/football/teams/4716.png"
+        },
+        "away": {
+          "id": 227,
+          "name": "Santa Clara",
+          "logo": "https://media.api-sports.io/football/teams/227.png"
         }
       },
       "goals": {
