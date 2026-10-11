@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T11:57:51.490Z",
+  "lastUpdated": "2026-10-11T17:28:09.485Z",
   "matches": [
     {
       "fixture": {
@@ -1687,9 +1687,9 @@
         "date": "2026-10-11T10:15:00+00:00",
         "timestamp": 1791713700,
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 80
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1713,7 +1713,7 @@
         }
       },
       "goals": {
-        "home": 2,
+        "home": 3,
         "away": 1
       },
       "broadcast": {
@@ -1727,9 +1727,9 @@
         "date": "2026-10-11T10:30:00+00:00",
         "timestamp": 1791714600,
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 64
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1767,9 +1767,9 @@
         "date": "2026-10-11T10:30:00+00:00",
         "timestamp": 1791714600,
         "status": {
-          "long": "Second Half",
-          "short": "2H",
-          "elapsed": 68
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1807,9 +1807,9 @@
         "date": "2026-10-11T11:00:00+00:00",
         "timestamp": 1791716400,
         "status": {
-          "long": "Halftime",
-          "short": "HT",
-          "elapsed": 45
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1834,7 +1834,7 @@
       },
       "goals": {
         "home": 0,
-        "away": 1
+        "away": 2
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -1847,9 +1847,9 @@
         "date": "2026-10-11T12:00:00+00:00",
         "timestamp": 1791720000,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1873,8 +1873,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "broadcast": {
         "channel": "beIN Sports HD 3",
@@ -1887,9 +1887,9 @@
         "date": "2026-10-11T12:30:00+00:00",
         "timestamp": 1791721800,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1913,8 +1913,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -1927,9 +1927,9 @@
         "date": "2026-10-11T12:30:00+00:00",
         "timestamp": 1791721800,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1953,8 +1953,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -1967,9 +1967,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -1993,8 +1993,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "broadcast": {
         "channel": "StarzPlay / AD Sports",
@@ -2007,9 +2007,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2033,8 +2033,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 2
       },
       "broadcast": {
         "channel": "StarzPlay / AD Sports",
@@ -2047,9 +2047,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2073,8 +2073,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 4",
@@ -2087,9 +2087,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2113,8 +2113,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2127,9 +2127,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2153,8 +2153,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 1",
@@ -2167,9 +2167,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2193,8 +2193,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 2
       },
       "broadcast": {
         "channel": "beIN Sports HD 1",
@@ -2207,9 +2207,9 @@
         "date": "2026-10-11T13:00:00+00:00",
         "timestamp": 1791723600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2233,8 +2233,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2247,9 +2247,9 @@
         "date": "2026-10-11T13:30:00+00:00",
         "timestamp": 1791725400,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2273,8 +2273,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 5",
@@ -2287,9 +2287,9 @@
         "date": "2026-10-11T13:40:00+00:00",
         "timestamp": 1791726000,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2313,8 +2313,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2327,9 +2327,9 @@
         "date": "2026-10-11T14:00:00+00:00",
         "timestamp": 1791727200,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2353,8 +2353,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 1
       },
       "broadcast": {
         "channel": "OnTime Sports 1",
@@ -2367,9 +2367,9 @@
         "date": "2026-10-11T14:15:00+00:00",
         "timestamp": 1791728100,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2393,8 +2393,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "broadcast": {
         "channel": "beIN Sports HD 3",
@@ -2407,9 +2407,9 @@
         "date": "2026-10-11T14:30:00+00:00",
         "timestamp": 1791729000,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2433,8 +2433,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 3,
+        "away": 2
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2447,9 +2447,9 @@
         "date": "2026-10-11T14:45:00+00:00",
         "timestamp": 1791729900,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2473,8 +2473,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 5
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2487,9 +2487,9 @@
         "date": "2026-10-11T15:15:00+00:00",
         "timestamp": 1791731700,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2513,8 +2513,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 4,
+        "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 4",
@@ -2567,9 +2567,9 @@
         "date": "2026-10-11T15:30:00+00:00",
         "timestamp": 1791732600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2593,8 +2593,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 3
       },
       "broadcast": {
         "channel": "beIN Sports HD 1",
@@ -2607,9 +2607,9 @@
         "date": "2026-10-11T15:30:00+00:00",
         "timestamp": 1791732600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Match Finished",
+          "short": "FT",
+          "elapsed": 90
         }
       },
       "league": {
@@ -2633,8 +2633,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "broadcast": {
         "channel": "beIN Sports HD 5",
@@ -2647,9 +2647,9 @@
         "date": "2026-10-11T16:00:00+00:00",
         "timestamp": 1791734400,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 62
         }
       },
       "league": {
@@ -2673,8 +2673,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "broadcast": {
         "channel": "StarzPlay / AD Sports",
@@ -2687,9 +2687,9 @@
         "date": "2026-10-11T16:00:00+00:00",
         "timestamp": 1791734400,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 68
         }
       },
       "league": {
@@ -2713,8 +2713,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2727,9 +2727,9 @@
         "date": "2026-10-11T16:30:00+00:00",
         "timestamp": 1791736200,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Halftime",
+          "short": "HT",
+          "elapsed": 45
         }
       },
       "league": {
@@ -2753,8 +2753,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 0
       },
       "broadcast": {
         "channel": "beIN Sports HD 3",
@@ -2767,9 +2767,9 @@
         "date": "2026-10-11T17:00:00+00:00",
         "timestamp": 1791738000,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 26
         }
       },
       "league": {
@@ -2793,8 +2793,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 1,
+        "away": 0
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2807,9 +2807,9 @@
         "date": "2026-10-11T17:00:00+00:00",
         "timestamp": 1791738000,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "First Half",
+          "short": "1H",
+          "elapsed": 26
         }
       },
       "league": {
@@ -2833,8 +2833,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "broadcast": {
         "channel": "OnTime Sports 1",
