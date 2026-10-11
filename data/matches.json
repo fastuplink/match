@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-11T03:28:48.676Z",
+  "lastUpdated": "2026-10-11T11:57:51.490Z",
   "matches": [
     {
       "fixture": {
@@ -1687,9 +1687,9 @@
         "date": "2026-10-11T10:15:00+00:00",
         "timestamp": 1791713700,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 80
         }
       },
       "league": {
@@ -1713,8 +1713,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 2,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -1727,9 +1727,9 @@
         "date": "2026-10-11T10:30:00+00:00",
         "timestamp": 1791714600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 64
         }
       },
       "league": {
@@ -1753,8 +1753,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "broadcast": {
         "channel": "StarzPlay / AD Sports",
@@ -1767,9 +1767,9 @@
         "date": "2026-10-11T10:30:00+00:00",
         "timestamp": 1791714600,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Second Half",
+          "short": "2H",
+          "elapsed": 68
         }
       },
       "league": {
@@ -1793,8 +1793,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 0
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -1807,9 +1807,9 @@
         "date": "2026-10-11T11:00:00+00:00",
         "timestamp": 1791716400,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
-          "elapsed": null
+          "long": "Halftime",
+          "short": "HT",
+          "elapsed": 45
         }
       },
       "league": {
@@ -1833,8 +1833,8 @@
         }
       },
       "goals": {
-        "home": null,
-        "away": null
+        "home": 0,
+        "away": 1
       },
       "broadcast": {
         "channel": "قناة غير معلنة",
@@ -2527,8 +2527,8 @@
         "date": "2026-10-11T15:25:00+00:00",
         "timestamp": 1791732300,
         "status": {
-          "long": "Not Started",
-          "short": "NS",
+          "long": "Match Postponed",
+          "short": "PST",
           "elapsed": null
         }
       },
